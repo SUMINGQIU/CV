@@ -2,101 +2,68 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Test web</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suming's Web</title>
+    <link rel = "stylesheet" href="css/styles.css">
+    <link rel = "icon" href = "favicon.ico"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Oxygen&family=Pacifico&family=Sacramento&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <!-- <img src="https://media.licdn.com/dms/image/D4E03AQHzgkg9IImlag/profile-displayphoto-shrink_400_400/0/1678368722440?e=1683763200&v=beta&t=8RNRTUw5gnMUMQ3-w5L_RwTZWsA1zHQIWn4OZq-bpR8" alt = "Suming Qiu Profile Pic"> -->
-    <table cellspacing = "20">
-        <tr>
-            <td><img src = "images/profile.jpg" alt = "Suming Qiu Profile Pic"></td>
-            <td>
-                <h1>Suming Qiu</h1>
-                <p><em>Founder and CT0 for the <strong><a href="https://www.linkedin.com/in/sumingcornellengineeringcsms/">App Brewery.</a></strong></em></p>
-                <p>I am a second year MS student at Cornell. I love studying.</p>
-            </td>
-        </tr>
-    </table>
-    
-    
-    <hr size = "3" noshade>
-    <h2>Courses Taken</h2>
-    <ul>
-        <li>CS 4780 Introduction to ML</li>
-        <li>CS 5820 Foundation of Robotics</li>
-    </ul>
-    <a href="hobbies.html">My Hobbies</a>
-
-    <p><a href="contactMe.html">Contact Information</a></p>
-
-
-    <hr size="2" noshade>
-    <h2><strong> Exprience</strong></h2>
-    <table border="1">
-        <thead>
-            <tr>
-                <td>Dates</td>
-                <td>Work</td>
-            </tr>
-            
-        </thead>
-        <tbody>
-            <tr>
-                <td>2017 - 2021</td>
-                <td>Undergraduate at LZU</td>
-            </tr>
-        </tbody>
-        <tfoot>
-
-        </tfoot>
-    </table>
-
-    <hr size="2" noshade>
-    <h2><strong>Skills</strong></h2>
-    <table border="1" cellspacing = "10">
-        <tr>
-            <td>
-                <table>
-                    <tr>
-                        <td>ios Development</td>
-                        <td>⭐⭐⭐⭐⭐</td>
-                    </tr>
-                    <tr>
-                        <td>Web Development</td>
-                        <td>⭐⭐⭐⭐⭐</td>
-                    </tr>
-                </table>
-            </td>
-            <td>
-                <table>
-                    <tr>
-                        <td>PS</td>
-                        <td>⭐⭐⭐⭐⭐</td>
-                    </tr>
-                    <tr>
-                        <td>Painting</td>
-                        <td>⭐⭐⭐⭐⭐</td>
-                    </tr>
-                </table>
-            </td>
-        </tr>
-    </table>
-
-
-
-
-
-
-
-    <!-- <table border="1">
-        <tr>
-            <td>ios Development: ⭐⭐⭐⭐⭐</td>
-            <td>PS: ⭐⭐⭐⭐⭐</td>
-        </tr>
-
-        <tr>
-            <td>Web Development: ⭐⭐⭐⭐⭐</td>
-            <td>Painting: ⭐⭐⭐⭐⭐</td>
-        </tr>
-    </table> -->
+    <div class="top-container">  
+        <img class = "top-cloud" src="images/cloud.png" alt="cloud-img">
+        <h1><em>I'm Suming</em></h1>
+        <h2>a <span class="pro">pro</span>grammer</h2>
+        <!-- <h2>a programmer</h2> -->
+        <img class = "bottom-cloud" src="images/cloud.png" alt="cloud-img">
+        <img src="images/mountain.png" alt="mountain-img">
+    </div>
+    <div class="middle-container">
+        <div class="profile">
+          <img  class = "suming_pic" src="images/Suming.png" alt="Suming-profile">
+          <h2>Hello.</h2>
+          <p class = "introduction">Hi! Nice to meet you. I received my Bachelor of Science degree in Theoretical and Applied Mechanics from Lanzhou University. 
+            I am now pursuing my Master of Science degree in Mechanical and Aerospace Engineering with a Minor in Computer Science at Cornell University. 
+            I have held seven pieces of research programs in my undergraduate years and also published three papers. 
+            My research interests cover friction, FEA, and mechanical designs. Now I am working on computer vision and Unreal Engines.
+            I am very passionate about interdisciplinary things empowered by physics, computer science, and math. 
+            Combining these together and making more productive things attract me a lot. 
+            In many of my projects, you can see how I combine different knowledge together. 
+            In the future, I wish to explore interesting interdisciplinary in greater depth.</p>
+        </div>
+        <hr>
+        <div class="skills">
+          <h2>My Skills.</h2>
+          <div class="skill-row">
+            <img class="coding" src="https://media3.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e474exgjgo1l0r7czo9ve8z7qr20674fmjgc98w2o3d&rid=giphy.gif&ct=s" alt="">
+            <h3>Lorem & Ipsum</h3>
+            <p>Lorem ipsum dolor sit amet, quis in duis, iaculis id felis. Consectetuer vestibulum, nunc urna lectus, erat ligula. Hendrerit nam, lectus ante, ut lorem eros.</p>
+          </div>
+          <div class="skill-row">
+            <img class="modeling" src="https://cdn-icons-png.flaticon.com/512/2103/2103652.png" alt="">
+            <h3>Lorem Ipsum Dolor</h3>
+            <p>Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu, bibendum interdum, lacus quis mauris. Curabitur wisi, quisque vel eu, rutrum nam.</p>
+          </div>
+        </div>
+        <hr>
+        <div class="contact-me">
+          <h2>Get In Touch</h2>
+          <h3>Lorem ipsum dolor sit amet, non elit.</h3>
+          <p class = "contact-message">Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus donec dui, ornare erat.</p>
+          <a class="btn" href="mailto:sq87@cornell.edu">CONTACT ME</a>
+        </div>
+      </div>
+      
+      
+      <div class="bottom-container">
+        <a class="footer-link" href="https://www.linkedin.com/in/sumingcornellengineeringcsms/">LinkedIn</a>
+        <a class="footer-link" href="https://github.com/SUMINGQIU/">Git</a>
+        <a class="footer-link" href="http://lisc.mae.cornell.edu/wordpress/?page_id=28">Lab Website</a>
+        <p class = "copyright">© Suming Qiu @ Cornell University.</p>
+      </div>
+      
 </body>
 </html>
