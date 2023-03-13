@@ -30,8 +30,8 @@ h3 {
 }
 hr {
     width: 4%;
-    border-top-style: dotted;
-    border-bottom: none;    
+    border-style: none;
+    border-top-style: dotted; 
     border-color: grey;
     border-width: 5px;
     margin: 150px auto 100px;
@@ -41,6 +41,7 @@ hr {
 p {
     font-size: 0.9em;
     line-height: 2;
+    font-family: "Merriweather", serif;
 }
 
 div {
@@ -69,14 +70,19 @@ a:hover {
 .coding {
     width: 25%;
     float: left;
-    margin-right: 30px;
-    margin-bottom: 50px;
+    margin-right: 40px;
+    margin-bottom: 70px;
 }
 
 .modeling {
     width: 25%;
     float: right;
     margin-left: 30px;
+}
+
+.trees {
+    width: 10%;
+    position: relative;
 }
 
 
@@ -89,6 +95,10 @@ a:hover {
     
 }
 .skills {
+    background-color: #EAF6F6;
+}
+
+.workexp {
     background-color: #EAF6F6;
 }
 
@@ -137,6 +147,10 @@ a:hover {
 .contact-me {
     background-color: #EAF6F6;
     padding-bottom: 100px;
+}
+
+.underline {
+    text-decoration: underline;
 }
 
 .pro {
