@@ -6,6 +6,7 @@ body {
  
 }
 
+
 h1 {
     margin: 50px auto 0 auto;
     font-family: "Pacifico", cursive;
@@ -65,7 +66,9 @@ a:hover {
 }
 .introduction {
     width: 40%;
-    margin:auto;
+    margin: auto;
+    padding: 3% 1%;
+    /* text-align: center; */
 }
 .coding {
     width: 25%;
@@ -114,6 +117,9 @@ a:hover {
     bottom: 300px;
 }
 
+.top-fig {
+    width: 18%;
+}
 
 .top-container {
     padding-top: 100px;
